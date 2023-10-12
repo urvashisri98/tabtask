@@ -1,0 +1,40 @@
+.registration {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+ 
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: antiquewhite;
+  padding: 30px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.submit{
+    background-color: brown;
+    color:antiquewhite;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+}
+.submit:hover{
+    background-color: antiquewhite;
+    color:brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px brown;
+    border:none;
+    padding: 4px;
+}
+.error{
+    font-size: 12px;
+    color:"red"
+}
